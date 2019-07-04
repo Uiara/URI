@@ -1,0 +1,6 @@
+valor =  int(input())
+ano =  int(valor // 365 )
+variavel = valor - (ano * 365)
+mes =  int(variavel // 30)
+dia = variavel - (mes * 30)
+print("%d ano(s)\n%d mes(es)\n%d dia(s)"%(ano, mes, dia))
